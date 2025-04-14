@@ -32,6 +32,10 @@ function square(){
     inputElement.value = inputElement.value * inputElement.value;
 }
 
+function root(){
+    inputElement.value = Math.sqrt(inputElement.value);
+}
+
 function perform(){
     inputElement.value = eval(inputElement.value)
 }
