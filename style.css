@@ -1,0 +1,49 @@
+.sec1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+}
+
+.sec2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    
+    padding: 20px;
+}
+
+.main{
+    padding: 20px;
+    border: 5px solid grey;
+    position: relative;
+}
+
+input{
+    width: 300px;
+    border: 3px solid grey;
+    margin-bottom: 10px;
+    height: 30px;
+}
+
+input:focus{
+    outline: none;
+}
+
+.rightBtn{
+   position: relative;
+   left: 248px;
+
+}
+
+.pos{
+    position: relative;
+    top: 2px;
+}
+
+button{
+    width: 58px;
+    margin: 5px 0;
+    height: 30px;
+}

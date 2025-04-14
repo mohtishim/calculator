@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <section class="sec1">
+        <h1>Calculator</h1>
+    </section>
+
+    <section class="sec2">                                             
+        <div class="main">
+            <input id="input1" type="text">
+            <br>
+            <button onclick="powerFunc()" id="powerBtn" class="rightBtn">OFF</button>
+            <br>
+            <button onclick="calBtn(7)">7</button>
+            <button onclick="calBtn(8)">8</button>
+            <button onclick="calBtn(9)">9</button>
+            <button class="pos" onclick="square()">x <sup>2</sup></button>
+            <button>√</button>
+            <br>
+            <button onclick="calBtn(4)">4</button>
+            <button onclick="calBtn(5)">5</button>
+            <button onclick="calBtn(6)">6</button>
+            <button onclick="calBtn('*')">*</button>
+            <button onclick="calBtn('%')">%</button>
+            <br>
+            <button onclick="calBtn(1)">1</button>
+            <button onclick="calBtn(2)">2</button>
+            <button onclick="calBtn(3)">3</button>
+            <button onclick="calBtn('-')">-</button>
+            <button onclick="calBtn('/')">/</button>
+            <br>
+            <button onclick="calBtn(0)">0</button>
+            <button onclick="calBtn('00')">00</button>
+            <button onclick="calBtn('.')">.</button>
+            <button onclick="calBtn('+')">+</button>
+            <button onclick="perform()">=</button>
+            <br>
+        </div>
+    </section>
+</body>
+<script src="app.js"></script>
+</html>
